@@ -1,0 +1,10 @@
+@media (max-width: 400px) {
+    .Burger div {
+        height: 2px;
+        width: 50px;
+        background: #333;
+    }
+    .Links {
+        display: none;
+    }
+}
