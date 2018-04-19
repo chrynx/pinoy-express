@@ -7,7 +7,7 @@ const navbar = (props) => (
         <ul>
             <div>
                 <div className={classes.Brand}>
-                    <NavLink>BRAND</NavLink>
+                    <NavLink to="/">BRAND</NavLink>
                 </div>
             </div>
             <div>
@@ -17,8 +17,8 @@ const navbar = (props) => (
                     <div></div>
                 </div>
                 <div className={classes.Links}>
-                    <NavLink>Menu</NavLink>
-                    <NavLink>Orders</NavLink>
+                    <NavLink to="/">Menu</NavLink>
+                    <NavLink to="/">Orders</NavLink>
                 </div>
             </div>
         </ul>
